@@ -24,7 +24,6 @@ public final class SafeCollections {
 
     /**
      * Provides an empty list if the input is null, but otherwise returns the provided input.
-     *
      * @param list the input list
      * @return the input, or an empty list if the input is null
      */
@@ -34,7 +33,6 @@ public final class SafeCollections {
 
     /**
      * Provides an empty set if the input is null, but otherwise returns the provided input.
-     *
      * @param set the input set
      * @return the input, or an empty set if the input is null
      */
@@ -44,7 +42,6 @@ public final class SafeCollections {
 
     /**
      * Provides an empty sorted set if the input is null, but otherwise returns the provided input.
-     *
      * @param set the input set
      * @return the input, or an empty sorted set if the input is null
      */
@@ -54,9 +51,7 @@ public final class SafeCollections {
 
     /**
      * Provides an empty navigable set if the input is null, but otherwise returns the provided input.
-     *
      * @param set the input set
-     * @param <E> the input set type
      * @return the input, or an empty navigable set if the input is null
      */
     public static <E> NavigableSet<E> safeNavigableSet(NavigableSet<E> set) {
@@ -66,8 +61,6 @@ public final class SafeCollections {
     /**
      * Provides an empty map if the input is null, but otherwise returns the provided input.
      * @param map the input map
-     * @param <K> the map key type
-     * @param <V> the map value type
      * @return the input, or an empty map if the input is null
      */
     public static <K, V> Map<K, V> safeMap(Map<K, V> map) {
@@ -77,8 +70,6 @@ public final class SafeCollections {
     /**
      * Provides an empty sorted map if the input is null, but otherwise returns the provided input.
      * @param map the input map
-     * @param <K> the map key type
-     * @param <V> the map value type
      * @return the input, or an empty sorted map if the input is null
      */
     public static <K, V> SortedMap<K, V> safeSortedMap(SortedMap<K, V> map) {
@@ -88,8 +79,6 @@ public final class SafeCollections {
     /**
      * Provides an empty navigable map if the input is null, but otherwise returns the provided input.
      * @param map the input map
-     * @param <K> the map key type
-     * @param <V> the map value type
      * @return the input, or an empty navigable map if the input is null
      */
     public static <K, V> NavigableMap<K, V> safeNavigableMap(NavigableMap<K, V> map) {
