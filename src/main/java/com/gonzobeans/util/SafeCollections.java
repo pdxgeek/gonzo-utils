@@ -1,7 +1,8 @@
-package com.gonzobeans.utils;
+package com.gonzobeans.util;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import org.jetbrains.annotations.Contract;
 
 import java.util.Collections;
 import java.util.Enumeration;
