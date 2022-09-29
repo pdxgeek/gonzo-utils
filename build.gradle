@@ -1,0 +1,21 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.4'
+    id 'io.freefair.lombok' version '6.5.1'
+    id 'java-library'
+}
+
+group = 'com.gonzobeans'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
